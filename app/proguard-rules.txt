@@ -15,5 +15,3 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
-
-call %java_exe% -jar "%PROGUARD_HOME%"\lib\proguard.jar %*
